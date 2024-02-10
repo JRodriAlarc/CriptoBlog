@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,900&family=Quicksand:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+:root {
+  /* Colores */
+  --color-white: #fff;
+  --color-blancoSombra: #ddd;
+  --color-negro: #333;
+  --color-black: #000;
+  --color-titulo: #00a443;
+  --color-fondo: #0ac18e;
+  --color-botones: #dcebe1;
+  --color-intermedio: #f1f7f3;
+  
+  /* Tipografías */
+  --font-titulos: 'Poppins', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-titulos);
+}
+
+nav {
+  background-color: var(--color-negro);
+  color: var(--color-white);
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  float: left;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.barraNavegacion ul li a {
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.3s;
+}
+  
+.barraNavegacion ul li a:hover {
+  color: var(--color-blancoSombra);
+}  

@@ -1,0 +1,16 @@
+.breadcrumbs {
+  color: var(--color-negro);
+  margin: 10px 0;
+  width: 70vw;
+  text-align: start;
+  /*align-self: flex-start;*/
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--color-titulo);
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,71 @@
+.headerPost{
+    height: 29vw; 
+    position: relative;
+    overflow: hidden;
+}
+
+.headerPost::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/headerPost.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.contenidoHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    
+    & img{
+        margin-top: 2em;
+        border-radius: 1.5em;
+        width: 45vw;
+    }
+
+    & h1{
+        font-size: 2.6em;
+        color: var(--color-intermedio);
+        text-align: left;
+        margin-bottom: 1em;
+    }
+
+    & .masTemas{
+        margin: 1em 0;
+    }
+
+    & .masTemas a{
+        text-decoration: none;
+        background-color: var(--color-botones);
+        color: var(--color-negro);
+        padding: 0.3em 0.7em;
+        border-radius: 1em;
+        margin: 0 0.5em;
+    }
+
+    & .mencionAutor{
+        display: flex;
+        align-items: center;
+        margin-top: 3em;
+        margin-bottom: 2em;
+
+        & h4, p {
+            margin: 0;
+        }
+
+        & img{
+            margin: 0;
+            border-radius: 50%;
+            width: 60px;
+        }
+    }
+
+    
+}
+

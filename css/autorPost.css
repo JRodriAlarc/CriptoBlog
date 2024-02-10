@@ -1,0 +1,20 @@
+.authorPost{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    background-color: #f1f7f3;
+    border-radius: 1.4em;
+    padding: 1em;
+    margin: 1em 0 3em 0;
+}
+
+.authorData{
+    margin: 0 1em 0 1em;
+}
+
+.authorPost img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 1em 0 1em;
+}

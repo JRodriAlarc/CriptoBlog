@@ -1,0 +1,40 @@
+.socialBlog{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5em 0;
+}
+
+.socialBlog a{
+    text-decoration: none;
+}
+
+.boton-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #dcebe1;
+    color: #00a443;
+    margin: 0 10px;
+}
+
+/*
+.boton-social.facebook {
+    background-color: #3b5998;
+}
+
+.boton-social.twitter {
+    background-color: #55acee;
+}
+
+.boton-social.instagram {
+    background-color: #e4405f;
+}
+
+.boton-social.youtube {
+    background-color: #0077b5;
+}
+*/

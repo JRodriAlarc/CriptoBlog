@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,900&family=Quicksand:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root {
+  /* Colores */
+  --color-white: #fff;
+  --color-blancoSombra: #ddd;
+  --color-titulo: #00a443;
+  --color-fondo: #0ac18e;
+  --color-botones: #dcebe1;
+  --color-intermedio: #f1f7f3;
+  --color-negro: #333;
+  --color-black: #000;
+  
+  /* Tipografías */
+  --font-titulos: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-titulos);
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenidoBlog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 70vw;
+}
+
+iframe{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul, ol{
+    margin-left: 2em;
+}
+
+p{
+    margin: 1em 0 1em 0;
+}
+
+.mencionBlog{
+    margin: 2em 0 2em 0;
+}
+
+h2, h3, h4 {
+    margin-top: 1em;
+}
+
+.linksBlog{
+    display: flex;
+    width: 70vw;
+    align-items: center;
+}
+
+.navegarPost{
+    display: flex;
+    justify-content: space-between;
+    width: 68vw;
+    margin-bottom: 4em;
+
+    & a{
+        text-decoration: none;
+        color: var(--color-titulo);
+        margin: 1em 0 1em 0;
+    
+        & p{
+            margin: 0;
+            color: var(--color-blancoSombra);
+        }
+    }
+}
+
+
+.explorarPosts{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    margin-top: 1em;
+    margin-bottom: 3em;
+
+    & a{
+        background-color: var(--color-fondo);
+        color: var(--color-intermedio);
+        padding: 0.5em 1em;
+        text-decoration: none;
+        border-radius: 2em;
+    }
+}
+
