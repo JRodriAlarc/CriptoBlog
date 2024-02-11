@@ -60,3 +60,28 @@ li {
 .barraNavegacion ul li a:hover {
   color: var(--color-blancoSombra);
 }  
+
+
+.menuContenido{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+
+  & li{
+    width: 20vw;
+  }
+
+  & li a{
+    background-color: var(--color-intermedio);
+    padding: 1em;
+    border-radius: 2em;
+    text-decoration: none;
+    color: var(--color-negro);
+  }
+
+  & li img{
+    width: 100%;
+    border-radius: 1.4em;
+  }
+}
