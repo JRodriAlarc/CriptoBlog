@@ -36,6 +36,16 @@ h1{
 
 .container{
     width: 70vw;
+
+    & .imagenBlog{
+        display: flex;
+        justify-content: center;
+    }
+
+    & img{
+        width: 50vw;
+        border-radius: 1em;
+    }
 }
 
 iframe{
