@@ -3,12 +3,13 @@
 :root {
   /* Colores */
   --color-white: #fff;
+  --color-blancoSombra: #ddd;
   --color-negro: #333;
   --color-black: #000;
   --color-titulo: #00a443;
   --color-fondo: #0ac18e;
   --color-botones: #dcebe1;
-  --color_intermedio: #f1f7f3;
+  --color-intermedio: #f1f7f3;
   
   /* Tipografías */
   --font-titulos: 'Poppins', sans-serif;
