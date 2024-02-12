@@ -147,8 +147,6 @@ main .sobre-nosotros{
     justify-content: center;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
-
-
     width: 2em;
     height: 2em;
     padding: 1em;
@@ -167,17 +165,23 @@ main .sobre-nosotros{
 
 .portafolio{
     background: var(--color-intermedio);
+    background-image: radial-gradient(#126d19 0.5px, transparent 0.5px), radial-gradient(#126d19 0.5px, var(--color-intermedio) 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
 }
 
 .galeria-port{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 1em;
 }
 
 .imagen-port{
     width: 24%;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
+    border-radius: 1.5em;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -197,16 +201,23 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(182, 91%, 27%, 0.7);
+    background: hsla(172, 84%, 15%, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 1.5em;
+
+    & h4, p{
+        color: var(--color-white);
+        text-align: center;
+    }
 }
 
 .hover-galeria img{
     width: 50px;
+    border-radius: 50%;
 }
 
 .hover-galeria p{
@@ -215,6 +226,11 @@ main .sobre-nosotros{
 
 .imagen-port:hover .hover-galeria{
     transform: scale(1);
+
+    & h4{
+        color: var(--color-white);
+        text-align: center;
+    }
 }
 
 /* Clients */
@@ -224,50 +240,65 @@ main .sobre-nosotros{
     justify-content: space-evenly;
 }
 
-.cards .card{
-    background: var(--color-fondo);
-    display: flex;
-    width: 46%;
-    height: 200px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+.clientes p{
+    margin: 2em 0;
 }
-
-.cards .card img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid var(--color-white);
-    border-radius: 50%;
-    display: block;
-}
-
-.cards .card > .contenido-texto-card{
-    width: 60%;
-    color: var(--color-white);
-}
-
-.cards .card > .contenido-texto-card p{
-    font-weight: 300;
-    padding-top: 5px;
-}
-
-/*  Our team */
 
 .about-services{
     background: var(--color-intermedio);
-    padding-bottom: 30px;
+    padding-bottom: 3em;
+    margin-bottom: 7em;
 }
-
 
 .servicio-cont{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
+.price__element{
+    background-color: var(--color-botones);
+    border-radius: 2em;
+    width: 330px;
+    padding: 40px;
+    margin: 0 1.3em;
+    display: grid;
+    grid-gap: 1em;
+
+    & img{
+        width: 100%;
+        border-radius: 1.5em;
+    }
+
+    & .price__name{
+        text-align: center;
+    }
+
+    & .price__cta{
+        display: block;
+        padding: 1em 2em;
+        border-radius: 2em;
+        text-align: center;
+        text-decoration: none;
+        background-color: var(--color-white);
+        font-weight: 600;
+        color: var(--color-titulo);
+    }
+}
+
+.price__element--best{
+    width: 370px;
+    padding: 60px 40px;
+    background-color: var(--color-fondo);
+    --bg-cta: #126d47;
+
+    & .price__cta{
+        background-color: var(--bg-cta);
+        color: var(--color-white);
+    }
+}
+
+/*
 .servicio-ind{
     width: 28%;
     text-align: center;
@@ -285,6 +316,8 @@ main .sobre-nosotros{
     font-weight: 300;
     text-align: justify;
 }
+
+*/
 
 @media screen and (max-width:900px){
     header{

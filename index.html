@@ -1,33 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logoBlog.svg">
-    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="shortcut icon" href="img/logoBlog.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/indexPage.css">
+    <link rel="stylesheet" href="css/footer.css">
+
     <title>CriptoBlog</title>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logoBlog.svg" alt="CriptoBlog">
+                <h3>CriptoBlog</h3>
+            </div>
+            <div class="enlaces">
+                <a href="#conocenos">Conocenos</a>
+                <a href="#blog">Blog</a>
+                <a href="#contactos">Contactanos</a>
+            </div>
+        </nav>
+        <section class="textos-header">
+            <h1>CriptoBlog</h1>
+            <h2>Tu fuente confiable de información sobre blockchain y criptomonedas</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nuestro Proposito</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="https://www.bitstamp.net/learn/_ipx/w_1080&f_webp/www.bitstamp.net/learn/bts-img/2023/05/What-is-0x@2x.webp" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¡Bienvenido al fascinante mundo de las criptomonedas y la tecnología blockchain! </h3>
+                    <p>En CriptoBlog, nos dedicamos a explorar las últimas noticias, tendencias y desarrollos emocionantes en este espacio innovador. Ya sea que seas un entusiasta experimentado o estés dando tus primeros pasos en el universo cripto, aquí encontrarás información valiosa para mantenerte al día.</p>
+                    <h3><span>2</span>Los mejores Aliados</h3>
+                    <p>Obtén perspectivas de expertos en el campo. Nuestros análisis detallados abordan temas como la evolución de la tecnología blockchain, la regulación y las proyecciones del mercado.</p>
+                </div>
+            </div>
+        </section>
+        <section id="conocenos" class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestro Equipo de Trabajo</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="https://www.bitstamp.net/learn/_ipx/w_1080&f_webp/www.bitstamp.net/learn/bts-img/2023/05/What-is-0x@2x.webp" alt="Analista de Mercado">
+                        <div class="hover-galeria">
+                            <img src="https://media.licdn.com/dms/image/C4E03AQHAWG0u33FQaw/profile-displayphoto-shrink_800_800/0/1663872666212?e=2147483647&v=beta&t=Iwt-7XAKznBij-VdQ9j4vgMecYmn-2GJhIqOhgRP4ho" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Carlos Sánchez</h4>
+                                <p>Analista de Mercado</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="https://www.bitstamp.net/learn/_ipx/f_webp&s_432x243/www.bitstamp.net/learn/bts-img/2023/01/Bitstamp-IOUs.webp" alt="Desarrolladora Blockchain">
+                        <div class="hover-galeria">
+                            <img src="https://media.licdn.com/dms/image/D4E03AQHFx1eVh5Tdqw/profile-displayphoto-shrink_800_800/0/1704150083259?e=2147483647&v=beta&t=EZlYimPPrpN8StdwPzn7KJII86MPX4iLNndKB6Awjj4" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Elena Gómez</h4>
+                                <p>Desarrolladora Blockchain</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="https://www.bitstamp.net/learn/_ipx/f_&s_432x243/www.bitstamp.net/learn/bts-img/2022/08/1920x1080px_illustrations_learningcenter-99.svg" alt="Especialista en Seguridad">
+                        <div class="hover-galeria">
+                            <img src="https://media.licdn.com/dms/image/D4E03AQHQ_8Z4CH3qCw/profile-displayphoto-shrink_800_800/0/1676901119245?e=2147483647&v=beta&t=SC6vVPOIa9gPiu1zn9tyqxyjJe7dIQFHV8ik7eN0LJw" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Javier Rodríguez</h4>
+                                <p>Especialista en Seguridad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="https://www.bitstamp.net/learn/bts-img/2022/08/1920x1080px_illustrations_learningcenter-71.svg" alt="Redactora de Noticias">
+                        <div class="hover-galeria">
+                            <img src="https://media.licdn.com/dms/image/D4D03AQGxedNHg5gPDA/profile-displayphoto-shrink_800_800/0/1682429396017?e=2147483647&v=beta&t=GbMP6bn6mB3WQ8HeqpBbUQbYyBLUcYXbK2SQr89QNXw" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Laura Fernández</h4>
+                                <p>Redactora de Noticias</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="https://www.bitstamp.net/learn/_ipx/f_&s_432x243/www.bitstamp.net/learn/bts-img/2022/08/1920x1080px_illustrations_learningcenter-101.svg" alt="Experto en Contratos Inteligentes">
+                        <div class="hover-galeria">
+                            <img src="https://media.licdn.com/dms/image/C5103AQG6hgujA3YJkA/profile-displayphoto-shrink_800_800/0/1547786123212?e=2147483647&v=beta&t=CVJmowiMvWIPYZp__UEvPsAOMs8soA00AdE4U7ikXo4" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Miguel Ramírez</h4>
+                                <p>Experto en Contratos Inteligentes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="https://www.bitstamp.net/learn/_ipx/f_&s_432x243/www.bitstamp.net/learn/bts-img/2022/08/1920x1080px_illustrations_learningcenter-95.svg" alt="Analista Legal">
+                        <div class="hover-galeria">
+                            <img src="https://media.licdn.com/dms/image/D4D03AQE3oznmA4B8Cg/profile-displayphoto-shrink_800_800/0/1669739691488?e=2147483647&v=beta&t=i0Rflj33vsDPenMFPlFu-TG1Er80eu9FpKjwLGAFRJc" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Patricia Torres</h4>
+                                <p>Analista Legal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="https://www.bitstamp.net/learn/bts-img/2023/08/What-is-Nexo.png" alt="Estratega de Inversiones">
+                        <div class="hover-galeria">
+                            <img src="https://media.licdn.com/dms/image/C4E03AQGpMklQivggBg/profile-displayphoto-shrink_800_800/0/1649783443630?e=2147483647&v=beta&t=9uu-JDBbyYOz9mqbkiz8nquI2A4eAUoKDmNlBAQ8wgs" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Ricardo Navarro</h4>
+                                <p>Estratega de Inversiones</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="https://www.bitstamp.net/learn/bts-img/2023/12/what-is-storj.svg" alt="Editor en Jefe">
+                        <div class="hover-galeria">
+                            <img src="https://media.licdn.com/dms/image/D4E03AQGnfXlx-AA6Ww/profile-displayphoto-shrink_400_400/0/1679497059796?e=2147483647&v=beta&t=tX2eZxNTPf_9K6-ch3CpbNh6zlQbPyhyXzZ0OVZCjqk" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Jonatan Raul</h4>
+                                <p>Editor en Jefe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Enfoque Destacado</h2>
+            <p>Descubre las últimas noticias, aprende sobre proyectos innovadores, y encuentra consejos prácticos para maximizar la seguridad de tus criptomonedas. Ya seas un entusiasta novato o un inversor experimentado, CriptoBlog está aquí para guiarte en tu viaje por el universo de blockchain y criptomonedas.</p>
+            
+            <p>Únete a nuestra comunidad y sumérgete en un espacio donde la tecnología y las finanzas convergen para dar forma al futuro. ¡Bienvenido a la revolución blockchain, Bienvenido a CriptoBlog!</p>
+        </section>
+        <section id="blog" class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Descubre lo que Ofrecemos</h2>
+                <div class="servicio-cont">
+                    <div class="price__element">
+                        <img src="https://www.bitstamp.net/learn/bts-img/2023/04/What-is-Compound---COMP-.png" alt="Blockchain">
+                        <p class="price__name">En nuestra sección dedicada a Blockchain desentrañamos los misterios de esta tecnología transformadora. </p>
+                        <a href="pages/explorarBlockchain.html" class="price__cta">Blockchain</a>
+                    </div>
+                    <div class="price__element price__element--best">
+                        <img src="https://www.bitstamp.net/learn/_ipx/w_1080&f_webp/www.bitstamp.net/learn/bts-img/2023/06/What-is-Injective-Protocol--INJ-.webp" alt="Criptomonedas">
+                        <p class="price__name">Adéntrate en el emocionante mundo de las criptomonedas a través de nuestra sección dedicada. Explora el mundo de las criptomonedas, desde las altcoins hasta las estrategias de trading.</p>
+                        <a href="pages/explorarCriptomonedas.html" class="price__cta">Criptomonedas</a>
+                    </div>
+                    <div class="price__element">
+                        <img src="https://www.bitstamp.net/learn/_ipx/f_&s_432x243/www.bitstamp.net/learn/bts-img/2022/08/1920x1080px_illustrations_learningcenter-70.svg" alt="Noticias">
+                        <p class="price__name">Te ofrecemos cobertura en tiempo real sobre los eventos en el mundo de las criptomonedas y blockchain.</p>
+                        <a href="pages/explorarNotas.html" class="price__cta">Noticias</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     
-    <h1>Pagina de Inicio (Blog)</h1>
+    <footer class="footerPost footerIndex">
+        <div class="infoFooter">
+            <div class="aprendizaje">
+                <h3>Contenido:</h3>
+                <ul class="listaTemas">
+                    <li><a href="pages/explorarBlockchain.html">Blockchain</a></li>
+                    <li><a href="pages/explorarCriptomonedas.html">Criptomonedas</a></li>
+                    <li><a href="pages/explorarNotas.html">Noticias</a></li>
+                </ul>
+            </div>
+            <div id="contactos" class="contactos">
+                <h3>Contáctanos:</h3>
+                <ul>
+                    <li><p><b>Telefono:</b> +52 772 163 1779</p></li>
+                    <li><p><b>Email:</b> CriptoBlog@mail.com</p></li>
+                </ul>
+            </div>
+            <div id="suscripcion" class="suscripcion">
+                <h3>Descubre más desde CriptoBlog</h3>
+                <p>Suscríbete para enterarte del contenido nuevo</p>
+                <form class="formSuscripcion" method="post">
+                    <input type="email" name="emial" id="email" placeholder="Ingresa tu Email">
+                    <button type="button">Suscríbete</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyrigth">
+            <hr>
+            <p>&copy; 2024 by CriptoBlog. Todos los derechos reservados.</p>
+        </div>
+    </footer>
     
-    <h2>Ver más sobre el Tema: </h2>
-    <ul class="menuContenido">
-        <li>
-            <img src="/img/logoBlog.svg">
-            <a href="/pages/explorarBlockchain.html">Blockchain</a>
-        </li>
-        <li>
-            <img src="/img/logoBlog.svg">
-            <a href="/pages/explorarCriptomonedas.html">Criptomonedas</a>
-        </li>
-        <li>
-            <img src="/img/logoBlog.svg" alt="">
-            <a href="/pages/explorarNotas.html">Noticias</a>
-        </li>
-    </ul>
-
-
-
 </body>
+
 </html>
