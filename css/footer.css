@@ -1,5 +1,6 @@
 .footerPost{
-    height: 15vw; 
+    height: 15vw;
+    min-height: 230px;
     position: relative;
     overflow: hidden;
     display: grid;
