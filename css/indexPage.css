@@ -296,6 +296,10 @@ main .sobre-nosotros{
         background-color: var(--bg-cta);
         color: var(--color-white);
     }
+
+    & .price__name{
+        color: var(--color-intermedio);
+    }
 }
 
 /*
