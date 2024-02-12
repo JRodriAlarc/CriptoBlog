@@ -133,18 +133,25 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3{
-    margin-bottom: 15px;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    text-align: justify;
 }
 
 .contenido-textos h3 span{
     background: var(--color-fondo);
     color: var(--color-white);
     border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+    width: 2em;
+    height: 2em;
+    padding: 1em;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
 }
